@@ -1,0 +1,10 @@
+*.class
+*.exe
+.DS_Store
+*.o
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+target/
