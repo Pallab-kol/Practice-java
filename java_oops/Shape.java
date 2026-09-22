@@ -7,7 +7,7 @@ class Area{
 	double area(double a, double b){	//area of rectangle
 		return a * b;
 	}
-	double area(float a){	//area of square
+	float area(float a){	//area of square
 		return a * a;
 	}
 }
