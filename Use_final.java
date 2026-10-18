@@ -3,7 +3,7 @@ final class A1{
         System.out.println("this is a final method");
     }
 }
-class B1{
+class B1{ 
     void meth1(){
         System.out.println("Illegal");
     }
