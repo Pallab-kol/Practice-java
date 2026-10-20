@@ -85,9 +85,9 @@ class Interface_ {
        series iref;     //adding reference of interface like superclass
        for(int i = 0; i < 5; i++){
             iref = b;
-            System.out.println("Next b2 value is: " + b.getnext());
+            System.out.println("Next b2 value is: " + iref.getnext());
             iref = b3;
-            System.out.println("Next b3 value is: " + b3.getnext());
+            System.out.println("Next b3 value is: " + iref.getnext());
         }
     }
 }
