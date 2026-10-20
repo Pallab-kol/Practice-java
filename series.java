@@ -82,7 +82,7 @@ class Interface_ {
         for(int i = 0; i < 5; i++){
             System.out.println("Next value is: " + b3.getnext());
         }*/
-       series iref;
+       series iref;     //adding reference of interface like superclass
        for(int i = 0; i < 5; i++){
             iref = b;
             System.out.println("Next b2 value is: " + b.getnext());
