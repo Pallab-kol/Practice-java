@@ -50,7 +50,7 @@ class Interface_ {
     public static void main(String[] args){
         ByTwos b = new ByTwos();
         ByThrees b3 = new ByThrees();
-        for(int i = 0; i < 5; i++){
+        /*for(int i = 0; i < 5; i++){
             System.out.println("Next value is: " + b.getnext());
         }
         System.out.println();
@@ -81,6 +81,13 @@ class Interface_ {
         b3.setStart(100);
         for(int i = 0; i < 5; i++){
             System.out.println("Next value is: " + b3.getnext());
+        }*/
+       series iref;
+       for(int i = 0; i < 5; i++){
+            iref = b;
+            System.out.println("Next b2 value is: " + b.getnext());
+            iref = b3;
+            System.out.println("Next b3 value is: " + b3.getnext());
         }
     }
 }
