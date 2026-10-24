@@ -3,13 +3,14 @@ class Bubble{
 	int size, t;
 	int [] nums;
 	void getdata(){		//taking input with this method
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the size of your array: ");
-		size = sc.nextInt();
-		nums = new int[size];
-		System.out.println("Enter array elements: ");
-		for(int i = 0; i < size; i++){
-			nums[i] = sc.nextInt();
+		try (Scanner sc = new Scanner(System.in)) {
+			System.out.println("Enter the size of your array: ");
+			size = sc.nextInt();
+			nums = new int[size];
+			System.out.println("Enter array elements: ");
+			for(int i = 0; i < size; i++){
+				nums[i] = sc.nextInt();
+			}
 		}
 	}
 	void show(){
