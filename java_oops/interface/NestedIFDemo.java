@@ -12,7 +12,7 @@ class NestedIF implements A2.NestedIF1 {
 }
 class NestedIFDemo{
     public static void main(String[] args) {
-        A2.NestedIF1 n = new NestedIF();
+        NestedIF n = new NestedIF();
         if (n.isNotNegative(20)) {
             System.out.println("20 is not negative.");
         }
