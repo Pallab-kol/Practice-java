@@ -18,7 +18,7 @@ class IFExtends implements B1 {
     }
 }
 
-class IFExtendsDemo{
+public class IFExtendsDemo{
     public static void main(String[] args) {
         IFExtends I = new IFExtends();
 
