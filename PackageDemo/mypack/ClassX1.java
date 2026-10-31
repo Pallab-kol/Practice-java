@@ -7,5 +7,6 @@ public class ClassX1 {
     public int math(int a, int b){
         return a+b;
     }
+    public static String name = "Pallab"; 
 }
 

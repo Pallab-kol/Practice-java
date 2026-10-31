@@ -1,5 +1,5 @@
 package java_oops.PackageA;
-import PackageDemo.mypack.*;
+import PackageDemo.mypack.ClassX1;
 
 class Sample extends ClassX1{
     protected String FName;
@@ -12,6 +12,7 @@ class Sample extends ClassX1{
         System.out.println("Owner name is: ");
         System.out.println(FName + " " + LName);
     }
+    
 }
 public class PackDemo {
     public static void main(String[] args) {
@@ -20,5 +21,6 @@ public class PackDemo {
         c.show();
         s.showName();
         System.out.println(c.math(7, 8));
+        System.out.println(ClassX1.name);
     }
 }
