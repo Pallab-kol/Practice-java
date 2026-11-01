@@ -1,4 +1,4 @@
-package java_oops.PackageA;
+package PackageA;
 import PackageDemo.mypack.ClassX1;
 
 class Sample extends ClassX1{

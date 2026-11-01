@@ -1,4 +1,4 @@
-package java_oops.PackageA;
+package PackageA;
 //import static  java.lang.Math.sqrt;
 import static  java.lang.Math.*;
 
