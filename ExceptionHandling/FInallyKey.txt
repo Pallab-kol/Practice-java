@@ -1,0 +1,14 @@
+1. When exception happens it cause the code to get return prematurely. To avoid such premature break in code we use the 'finally' keywaord.
+2. A finally block is executed whenever the execution leaves the try-catch block, no matter what condition arrives a finally block will alsways be executed.
+3. Syntax:
+    try{
+        //block of code to monitor
+    } catch(ExceptionType1 ob){
+        //handler for exceptiontype1
+    } catch(ExceptionType2 ob){
+        //handler for exceptiontype2
+    }
+    //....
+    finally{
+        //finally code
+    }
