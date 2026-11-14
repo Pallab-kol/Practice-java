@@ -34,7 +34,7 @@ public class ThrowDemo {
           try {     //this try-catch is recatching the thrown e into it and executing one last time with message in catch
             Rethrow.genException();
           } catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println("Fatal error - session terminated.");
+            System.out.println("Fatal error - session terminated.");    //without throw e this catch will never be executed
           }
     }
 }

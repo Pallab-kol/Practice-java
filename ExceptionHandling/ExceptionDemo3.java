@@ -12,6 +12,7 @@ public class ExceptionDemo3 {
                 System.out.println(num[i] + " / " + den[i] + " = " + num[i]/den[i]);
             } catch (ArithmeticException e) {   //returns error message when arithmetic exception happens
                 System.out.println("Can't divide by zero.");
+                e.printStackTrace();
             } catch (ArrayIndexOutOfBoundsException a){     // returns out of bound error when threshold is happened
                 System.out.println("Numerator out of bound.");
             }

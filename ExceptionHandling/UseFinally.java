@@ -6,6 +6,7 @@ class UseFinallyDemo {
         int [] num = new int[2];
 
         try {
+            System.out.println("Receiving " + what);
             switch (what) {
                 case 0:
                     t = 10 / what;
