@@ -1,6 +1,7 @@
 package ExceptionHandling;
 
 class InvalidAgeException extends Exception{    //InvalidAgeException is a checked exception
+
     public InvalidAgeException(String m){
         super(m);
     }
