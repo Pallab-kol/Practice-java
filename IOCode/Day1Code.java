@@ -7,11 +7,8 @@ public class Day1Code {
         System.out.println("Enter some characters: ");
         int numread = System.in.read(b);    //using int read(byte [] b) method of InputStream
         System.out.println("You entered: ");
-
         for (int i = 0; i < numread; i++) {
-            System.out.print((char)b[i]);
+            System.out.write(b[i]);
         }
-
-
      }
 }

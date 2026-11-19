@@ -7,8 +7,9 @@ class code{
 	int key = 88;	//taking encryption key
 	void getdata(){	//taking input from user
 	System.out.println("Enter your text to encode: ");
-		Scanner sc = new Scanner(System.in);
-		s = sc.nextLine();	//nextLine() for long string
+		try (Scanner sc = new Scanner(System.in)) {
+			s = sc.nextLine();	//nextLine() for long string
+		}
 	}
 	void encoder(){
 		for(int i = 0; i < s.length(); i++){
@@ -22,12 +23,15 @@ class code{
 	}
 	void showMsg(){		//display methods next 3 methods
 		System.out.println(s);
+		System.out.println();
 	}
 	void showEnc(){
 		System.out.println(encode);
+		System.out.println();
 	}
 	void showDec(){
 		System.out.println(decode);
+		System.out.println();
 	}
 }
 class enc_dec{
