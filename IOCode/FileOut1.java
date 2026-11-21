@@ -11,7 +11,7 @@ public class FileOut1 {
         // Print the current directory
         System.out.println("Current working directory: " + s);
 
-        try (FileOutputStream fos = new FileOutputStream("new.txt")) {
+        try (FileOutputStream fos = new FileOutputStream("new.txt", false)) {
                  
             // Convert the string into bytes
             byte[] b = data.getBytes();
@@ -31,8 +31,10 @@ public class FileOut1 {
             while ((ch = f.read())!=-1) {
                 System.out.print((char)ch);
             }
+            f.close();
+            
         } catch (Exception e) {
-            System.out.println("Exception caufht.");
+            System.out.println("Exception caught: " + e.getMessage());
         }
         System.out.println();
     }
