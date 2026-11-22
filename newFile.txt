@@ -1,3 +1,7 @@
 W
 this is a test file for WriterDemo.java.W
+this is a test file for WriterDemo.java.W
+this is a test file for WriterDemo.java.hello
+W
 this is a test file for WriterDemo.java.
+hello
